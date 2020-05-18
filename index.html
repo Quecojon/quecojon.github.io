@@ -1,30 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta+Malar:300,700">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Indice</title>
+  <style>
+    div.grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      font-family: "Mukta Malar"
+    }
+
+    header {
+      display: grid;
+      grid-column: 1 / 3;
+      background-color: #fbf9fa
+    }
+
+    header>h1 {
+      grid-column: 1 / 3;
+      text-align: center;
+    }
+    nav {
+background-color: #fd0054;
+    }
+
+div.main {
+background-color: #79d70f;
+text-align: center;
+}
+  </style>
 </head>
+
 <body>
-  <h1>Prácticas HTML</h1>
-  <p><strong><em>Pedro Herranz</em></strong></p>
-  <p><strong><em>4 ESO</em></strong></p>
-  <ul>
-    <li><a href="p1.html">Práctica 1</a></li>
-    <li><a href="">Práctica 2</a></li>
-    <li><a href="">Práctica 3</a></li>
-    <li><a href="">Práctica 4</a></li>
-    <li><a href="">Práctica 5</a></li>
-    <li><a href="p6.html">Práctica 6</a></li>
-    <li><a href="p7.html">Práctica 7</a></li>
-    <li><a href="p8.html">Práctica 8</a></li>
-    <li><a href="p9.html">Práctica 9</a></li>
-    <li><a href="p10.html">Práctica 10</a></li>
-    <li><a href="p12d.html">Práctica 12d</a></li>
-    <li><a href="p12a.html">Práctica 12a</a></li>
-    <li><a href="p12b.html">Práctica 12b</a></li>
-    <li><a href="p14.html">Práctica 14</a></li>
-  </ul>
+  <div class="grid-layout">
+    <header>
+      <h1>Practicas HTML/CSS 2020</h1>
+      <p class="header__left-side"><strong>Pedro Herranz Quiles</strong></p>
+      <p class="header__right-side"><strong>4ºA</strong></p>
+    </header>
+    <nav>
+      <a href="p1.html">Practica 1</a>
+      <a href="p2.html">Practica 2</a>
+      <a href="p3.html">Practica 3</a>
+      <a href="p4.html">Practica 4</a>
+      <a href="p5.html">Practica 3</a>
+      <a href="p6.html">Practica 6</a>
+      <a href="p7.html">Practica 7</a>
+      <a href="p8.html">Practica 8</a>
+      <a href="p9.html">Practica 9</a>
+      <a href="p10.html">Practica 10</a>
+      <a href="p11.html">Practica 11</a>
+      <a href="p12a.html">Practica 12a</a>
+      <a href="p12b.html">Practica 12b</a>
+      <a href="p12c.html">Practica 12c</a>
+      <a href="p13.html">Practica 13</a>
+      <a href="p14.html">Practica 14</a>
+    </nav>
+
+    <div class="main">
+      <p>Contenido ....</p>
+    </div>
+
+  </div>
 </body>
+
 </html>
