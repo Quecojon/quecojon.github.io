@@ -4,7 +4,8 @@
   body {
   margin: 0;
   font-family: 'Mukta Malar'!important;
-  font-size: 1.2em !important
+  font-size: 1.2em !important;
+  color: black !important;
 }
   div.grid-layout {
     display: grid;
