@@ -21,6 +21,7 @@
    header h1 {
     grid-column: 1 / 3;
     text-align: center;
+    color: black !important;
   }
 
    nav {
@@ -44,3 +45,10 @@
     background-color: white;
 
   }
+.header__left-side {
+text-align: left;
+
+}
+.header__right-side {
+  text-align: right;
+}
